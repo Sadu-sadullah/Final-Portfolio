@@ -355,7 +355,8 @@ header {
 .rotate {
   position: absolute;
   top: .4em;
-  left: -50px; }
+  /* left: -50px; */
+}
   .rotate .heading {
     font-family: "Karla", Arial, sans-serif;
     font-size: 14px;
@@ -1326,3 +1327,21 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+@media screen and (max-width: 480px){
+  .rotate{
+    left: 3em;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .rotate{
+    left: 3em
+  }
+}
+
+@media screen and (max-width: 1824px) {
+  .rotate{
+    left: 3em;
+  }
+}
